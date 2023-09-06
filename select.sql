@@ -9,13 +9,14 @@ SELECT Name, City FROM Customers;
 SELECT DISTINCT Column FROM table_name;
 
 -- Return a table with two columns (abs, log) where the values in abs are the 
--- absolute values of number1 and the values in log are values from number2 in logarithm to base 64.
+-- absolute values of number1 and the values in log are values from number2 in 
+-- logarithm to base 64.
 SELECT 
   abs(number1),
   log(64, number2)
 FROM
   decimals;
-  
+
 -- Lists the number of diferrent (distinct) customer countries;
 SELECT COUNT(DISTINCT Country) FROM Customers;
 
