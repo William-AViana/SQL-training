@@ -20,6 +20,10 @@ FROM
 -- Lists the number of diferrent (distinct) customer countries;
 SELECT COUNT(DISTINCT Country) FROM Customers;
 
+--person table has name data
+SELECT 'Hello, ' || name || ' how are you doing today?' greeting
+FROM person;
+
 
 --# You are given a tavle 'makeupperercase' with column 's', return a table with 
 -- column 's' and your result in a column named 'res'.
